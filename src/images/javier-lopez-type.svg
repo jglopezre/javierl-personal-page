@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="289.27515"
+   height="167.53812"
+   viewBox="0 0 76.537385 44.327795"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="imagen-visual-220807 (copia).svg"
+   inkscape:export-filename="imagen-visual-220807.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.5946522"
+     inkscape:cx="511.2232"
+     inkscape:cy="540.65217"
+     inkscape:window-width="1440"
+     inkscape:window-height="871"
+     inkscape:window-x="0"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer4">
+    <inkscape:grid
+       type="xygrid"
+       id="grid33586" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="216.97765"
+       y="380.05267"
+       width="521.70392"
+       height="169.78444"
+       id="rect28479" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5588">
+      <stop
+         style="stop-color:#ffb925;stop-opacity:1"
+         offset="0"
+         id="stop5584" />
+      <stop
+         style="stop-color:#ff5153;stop-opacity:1"
+         offset="1"
+         id="stop5586" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5588"
+       id="linearGradient5653"
+       x1="106.58016"
+       y1="104.79899"
+       x2="106.58978"
+       y2="67.296997"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="logo"
+     transform="translate(-136.93267,-47.040175)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.1676233,0,0,0.1676233,96.240853,-20.969611)"
+       id="text28477"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.667px;line-height:1.25;font-family:Lemondrop;-inkscape-font-specification:Lemondrop;text-align:center;letter-spacing:0.06px;white-space:pre;shape-inside:url(#rect28479);display:inline;fill:#ffb925;fill-opacity:1;stroke-width:1.57845"><tspan
+         x="253.17417"
+         y="500.05311"
+         id="tspan1114">JavIer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25.5923px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;letter-spacing:0.0143957px;text-anchor:middle;fill:#ff5153;fill-opacity:1;stroke-width:0.264583"
+       x="176.20589"
+       y="86.403061"
+       id="text32845"><tspan
+         sodipodi:role="line"
+         id="tspan32843"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:25.5923px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Light';fill:#ff5153;fill-opacity:1;stroke-width:0.264583"
+         x="176.21309"
+         y="86.403061">López</tspan></text>
+  </g>
+</svg>

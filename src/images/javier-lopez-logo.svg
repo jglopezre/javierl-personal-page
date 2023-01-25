@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="238.21771"
+   height="238.21779"
+   viewBox="0 0 63.028438 63.028459"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="imagen-visual-220807 (copia).svg"
+   inkscape:export-filename="imagen-visual-220807.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.5946522"
+     inkscape:cx="511.2232"
+     inkscape:cy="540.65217"
+     inkscape:window-width="1440"
+     inkscape:window-height="871"
+     inkscape:window-x="0"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer4">
+    <inkscape:grid
+       type="xygrid"
+       id="grid33586" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5588"
+       id="linearGradient5590"
+       x1="67.774963"
+       y1="75.121147"
+       x2="67.79303"
+       y2="34.739632"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.46447091,0,0,0.46447092,69.348019,28.252493)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5588">
+      <stop
+         style="stop-color:#ffb925;stop-opacity:1"
+         offset="0"
+         id="stop5584" />
+      <stop
+         style="stop-color:#ff5153;stop-opacity:1"
+         offset="1"
+         id="stop5586" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5588"
+       id="linearGradient5653"
+       x1="106.58016"
+       y1="104.79899"
+       x2="106.58978"
+       y2="67.296997"
+       gradientUnits="userSpaceOnUse" />
+    <rect
+       x="35.295238"
+       y="34.989716"
+       width="156.22771"
+       height="128.7504"
+       id="rect840" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="logo"
+     transform="translate(-69.293971,-28.19843)">
+    <g
+       id="g35868"
+       inkscape:export-filename="javier-lopez-logo.svg"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <rect
+         style="display:inline;opacity:0.999;mix-blend-mode:normal;fill:#fffedc;fill-opacity:1;stroke:url(#linearGradient5590);stroke-width:5.02181;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect10"
+         width="58.00663"
+         height="58.006645"
+         x="71.804871"
+         y="30.709335"
+         ry="4.3022723" />
+      <text
+         xml:space="preserve"
+         id="text838"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.5px;line-height:1.25;font-family:Lemondrop;-inkscape-font-specification:Lemondrop;text-align:center;letter-spacing:0.015875px;word-spacing:0px;white-space:pre;shape-inside:url(#rect840);display:inline;mix-blend-mode:normal;fill:url(#linearGradient5653);fill-opacity:1;stroke:none;stroke-width:10.566;stroke-dasharray:none"
+         transform="matrix(0.45677199,0,0,0.49453496,52.918448,11.325632)"><tspan
+           x="68.737302"
+           y="106.42773"
+           id="tspan966">Ja</tspan></text>
+    </g>
+  </g>
+</svg>
