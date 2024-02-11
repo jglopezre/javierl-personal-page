@@ -1,35 +1,25 @@
 {
-  "name": "javierl-personal-page",
+  "name": "",
+  "type": "module",
   "version": "0.0.1",
-  "private": true,
-  "description": "javierl-personal-page",
-  "author": "Javier Lopez",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "babel-plugin-styled-components": "^2.0.7",
-    "gatsby": "^5.4.2",
-    "gatsby-plugin-image": "^3.4.0",
-    "gatsby-plugin-manifest": "^5.4.0",
-    "gatsby-plugin-sharp": "^5.4.0",
-    "gatsby-plugin-sitemap": "^6.4.0",
-    "gatsby-plugin-styled-components": "^6.4.0",
-    "gatsby-source-filesystem": "^5.4.0",
-    "gatsby-transformer-remark": "^6.4.0",
-    "gatsby-transformer-sharp": "^5.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^5.3.6"
+    "@astrojs/check": "^0.5.2",
+    "astro": "^4.3.5",
+    "sass": "^1.70.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1"
   }
 }
