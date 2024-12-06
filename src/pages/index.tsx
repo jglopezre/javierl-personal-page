@@ -1,15 +1,16 @@
 import * as React from 'react';
 import type { HeadFC, PageProps } from 'gatsby';
-import { Col, Container, Row } from 'react-grid-system';
+import { Col, Row } from 'react-grid-system';
+import { Layout } from '@/components/Layout';
 
 const IndexPage: React.FC<PageProps> = () => (
-  <Container>
+  <Layout>
     <Row>
       <Col>
         <h1>Hola Javi</h1>
       </Col>
     </Row>
-  </Container>
+  </Layout>
 );
 
 export default IndexPage;

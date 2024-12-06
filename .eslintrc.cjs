@@ -25,6 +25,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
     'import/prefer-default-export': 'off',
+    'import/extensions': 'off',
     'react/function-component-definition': [
       2,
       {
