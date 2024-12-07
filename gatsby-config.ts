@@ -2,8 +2,11 @@ import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: 'javierl-personal-page',
-    siteUrl: 'https://www.yourdomain.tld',
+    title: 'Lo de Javi',
+    description: 'Portfolio personal y blog donde comparto lo que se',
+    siteUrl: 'https://www.lodejavi.xyz',
+    image: '/images/icon.png',
+    author: 'Javier Lopez',
   },
   // More easily incorporate content into your pages through automatic TypeScript
   // type generation and better GraphQL IntelliSense.
@@ -31,6 +34,26 @@ const config: GatsbyConfig = {
         path: './src/pages/',
       },
       __key: 'pages',
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Montserrat', 'Outfit', 'Parkinsans'],
+        },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'src/images/icon.png',
+        start_url: '/',
+        display: 'browser',
+        name: 'Lo de Javi',
+        short_name: 'LoDeJavi',
+        background_color: '#6b37bf',
+        theme_color: '#6b37bf',
+      },
     },
   ],
 };

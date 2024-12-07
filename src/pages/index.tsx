@@ -2,6 +2,7 @@ import * as React from 'react';
 import type { HeadFC, PageProps } from 'gatsby';
 import { Col, Row } from 'react-grid-system';
 import { Layout } from '@/components/Layout';
+import { SEO } from '@/components/Seo';
 
 const IndexPage: React.FC<PageProps> = () => (
   <Layout>
@@ -15,4 +16,4 @@ const IndexPage: React.FC<PageProps> = () => (
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Lo de javi</title>;
+export const Head: HeadFC = () => <SEO />;
