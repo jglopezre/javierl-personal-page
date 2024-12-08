@@ -1,4 +1,4 @@
-import { darken } from "polished";
+import { darken, lighten } from 'polished';
 
 const theme = {
   spacing: {
@@ -23,7 +23,7 @@ const theme = {
 
 export const darkTheme = {
   colors: {
-    primary: '#ff5153',
+    primary: lighten('#ff5153'),
     secondary: '#ffb925',
     background: darken(0.2, '#5c5d50'),
     text: '#fffedc',

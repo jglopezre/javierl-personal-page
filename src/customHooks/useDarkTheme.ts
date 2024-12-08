@@ -1,10 +1,11 @@
 import { darkTheme, lightTheme } from '@/styles/theme';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export const useDarkMode = () => {
-  const [isDarkMode, setIsDarkMode] = useState<Boolean>(() => (
-    window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-  ));
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
+    if (typeof window === 'undefined') return true;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  });
 
   const setDarkMode = () => {
     setIsDarkMode(true);
@@ -25,13 +26,10 @@ export const useDarkMode = () => {
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);
 
-  const darkModeAction = useMemo(() => ({
+  return {
     isDarkMode,
     selectedTheme,
     setDarkMode,
     setLightMode,
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }), [isDarkMode]);
-
-  return darkModeAction;
+  };
 };

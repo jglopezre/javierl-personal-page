@@ -39,7 +39,11 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Montserrat', 'Outfit', 'Parkinsans'],
+          families: [
+            'Montserrat:400,700',
+            'Outfit:100,400,700',
+            'Parkinsans:400,700',
+          ],
         },
       },
     },
