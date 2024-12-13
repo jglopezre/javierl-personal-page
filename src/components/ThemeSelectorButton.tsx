@@ -4,7 +4,7 @@ import { useDarkModeContext } from '@/customHooks/useDarkModeContext';
 
 const SelectorContainer = styled.div`
   border-radius: 25px;
-  border-color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.text};
   border-style: solid;
   border-width: 2px;
   width: 64px;
@@ -13,12 +13,10 @@ const SelectorContainer = styled.div`
 `;
 
 const Selector = styled.div<{ $buttonTranslate?: string; }>`
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   background-color: ${({ theme }) => theme.colors.text};
-  border-style: solid;
-  border-width: 2px;
   position: absolute;
   transform: translate(${(props) => props.$buttonTranslate ?? '0px'});
   transition: translate, 0.3s;

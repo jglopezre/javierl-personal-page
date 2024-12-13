@@ -2,7 +2,7 @@ import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: 'Lo de Javi',
+    title: '<LoDeJavi />',
     description: 'Portfolio personal y blog donde comparto lo que se',
     siteUrl: 'https://www.lodejavi.xyz',
     image: '/images/icon.png',

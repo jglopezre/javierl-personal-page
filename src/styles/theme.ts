@@ -1,6 +1,7 @@
 import { darken, lighten } from 'polished';
+import { DefaultTheme } from 'styled-components';
 
-const theme = {
+export const BaseTheme = {
   spacing: {
     xs: '4px',
     sm: '8px',
@@ -21,22 +22,22 @@ const theme = {
   },
 };
 
-export const darkTheme = {
+export const darkTheme: DefaultTheme = {
   colors: {
-    primary: lighten('#ff5153'),
+    primary: lighten(0.15, '#ff5153'),
     secondary: '#ffb925',
     background: darken(0.2, '#5c5d50'),
     text: '#fffedc',
   },
-  ...theme,
+  ...BaseTheme,
 };
 
-export const lightTheme = {
+export const lightTheme: DefaultTheme = {
   colors: {
     primary: '#ff5153',
     secondary: '#ffb925',
     background: '#fffedc',
     text: '#5c5d50',
   },
-  ...theme,
+  ...BaseTheme,
 };

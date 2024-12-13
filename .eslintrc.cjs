@@ -26,6 +26,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'warn',
     'import/prefer-default-export': 'off',
     'import/extensions': 'off',
+    'react/no-array-index-key': 'off',
     'react/function-component-definition': [
       2,
       {
