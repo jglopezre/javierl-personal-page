@@ -1,12 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+  :root {
+    font-size: 18px;
+  }
+
   body {
     font-family: Outfit, Arial, sans-serif;
     font-weight: 400;
     background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
-    font-size: ${({ theme }) => theme.typography.fontSize.lg};
     transition: background-color, 0.3s;
   }
 

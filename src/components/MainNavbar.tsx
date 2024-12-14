@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled, { css, keyframes } from 'styled-components';
-import AboutMe from '@/pages/aboutMe';
 
 const url = {
   home: '/',

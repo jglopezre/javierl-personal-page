@@ -1,26 +1,29 @@
 import React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
 import { Col, Row } from 'react-grid-system';
-import { AnimatedTextHolder } from '@/components/AnimatedTextHolder';
+import styled from 'styled-components';
+import { MainHeroAreaLeft } from '@/areas';
+import { FireSphereBackgorund } from '@/components/FireSphereBackground';
 
+const ColStyled = styled(Col)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const RowStyled = styled(Row)`
+  position: relative;
+`;
 export const MainHero: React.FC = () => {
   console.log('hero');
   return (
-    <Row component="section">
-      <Col>
-        <StaticImage
-          src="../images/icon.png"
-          alt="Javier Logo"
-          height={192}
-          backgroundColor="transparent"
-          placeholder="none"
-        />
-        <AnimatedTextHolder text="Hola, soy Javier!" fontSize="3.4rem" bolder={false} />
-
-      </Col>
-      <Col>
+    <RowStyled component="section">
+      <FireSphereBackgorund />
+      <ColStyled>
+        <MainHeroAreaLeft />
+      </ColStyled>
+      <ColStyled>
         <h2>Otra Cosa</h2>
-      </Col>
-    </Row>
+      </ColStyled>
+    </RowStyled>
   );
-}
+};

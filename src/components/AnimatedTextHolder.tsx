@@ -38,6 +38,7 @@ const TextContainerStyled = styled(TextContainer)<{ $fontsize: string, $fontWeig
   flex-direction: row;
   font-size: ${(props) => props.$fontsize};
   font-weight: ${(props) => (props.$fontWeight ? '700' : '400')};
+  font-family: 'Montserrat';
 `;
 
 export const AnimatedTextHolder: React.FC<AnimatedTextHolderProps> = ({ text, fontSize = '1rem', bolder = false }) => {
